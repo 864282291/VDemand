@@ -15,9 +15,9 @@
  */
 package com.bigdata.base.swrecy.recycle.touch;
 
-import android.support.annotation.IntDef;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
+import androidx.annotation.IntDef;
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -16,8 +16,9 @@
 package com.bigdata.base.swrecy.recycle;
 
 import android.content.Context;
-import android.support.annotation.IntDef;
 import android.widget.LinearLayout;
+
+import androidx.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

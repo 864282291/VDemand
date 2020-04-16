@@ -1,12 +1,13 @@
 package com.bigdata.base.pic.act;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import com.bigdata.base.R;
 import com.bigdata.base.pic.frag.ImageDetailFragment;
@@ -41,7 +42,7 @@ public class ImagePagerActivity extends FragmentActivity {
 				.getAdapter().getCount());
 		indicator.setText(text);
 		// 更新下标
-		mPager.setOnPageChangeListener(new OnPageChangeListener() {
+		mPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
 			@Override
 			public void onPageScrollStateChanged(int arg0) {
@@ -69,6 +70,7 @@ public class ImagePagerActivity extends FragmentActivity {
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 		outState.putInt(STATE_POSITION, mPager.getCurrentItem());
+		super.onSaveInstanceState(outState);
 	}
 
 	private class ImagePagerAdapter extends FragmentStatePagerAdapter {

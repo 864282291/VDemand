@@ -17,7 +17,6 @@ package com.bigdata.base.swrecy.recycle;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.MotionEvent;
@@ -27,6 +26,8 @@ import android.view.ViewConfiguration;
 import android.widget.FrameLayout;
 import android.widget.OverScroller;
 import android.widget.TextView;
+
+import androidx.core.view.ViewCompat;
 
 import com.bigdata.base.R;
 import com.bigdata.base.swrecy.inter.SwipeSwitch;

@@ -15,10 +15,11 @@
  */
 package com.bigdata.base.swrecy.recycle;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bigdata.base.R;
 import com.bigdata.base.swrecy.inter.OnSwipeMenuItemClickListener;

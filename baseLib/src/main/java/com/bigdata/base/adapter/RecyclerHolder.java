@@ -1,7 +1,8 @@
 package com.bigdata.base.adapter;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by 通子 on 2017/8/25.

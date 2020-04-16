@@ -2,9 +2,10 @@ package com.bigdata.base.act;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+
+import androidx.annotation.Nullable;
 
 import com.bigdata.base.request.RequestCallback;
 import com.bigdata.base.request.RequestCode;
