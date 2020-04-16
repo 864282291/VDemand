@@ -1,0 +1,3 @@
+include ':app'
+include ':baseLib'
+rootProject.name='VideoDemand'

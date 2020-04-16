@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green_base">#0dbb60</color>
+
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#9932CC</color>
+    <color name="purple_pressed">#9F79EE</color>
+
+    <color name="white_pressed">#FFCFCFCF</color>
+
+
+    <!--AlertDialog-->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <!--文字选中颜色-->
+    <color name="select_red">#ff1111</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray0">#F2F2F2</color>
+    <color name="gray1">#DEDEDE</color>
+    <color name="gray2">#C9C9C9</color>
+    <color name="gray3">#B4B4B4</color>
+    <color name="gray4">#A5A5A5</color>
+    <color name="gray5">#959595</color>
+    <color name="gray6">#868686</color>
+    <color name="yellow">#FFFC00</color>
+    <color name="pink_deep">#FF4F59</color>
+    <color name="blue">#017AFF</color>
+    <color name="transport">#00000000</color>
+    <color name="gray_bg">#f1f4f4</color>
+    <color name="trans_half">#88000000</color>
+</resources>

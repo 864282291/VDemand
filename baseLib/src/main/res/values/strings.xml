@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bigdata-BaseLibrary</string>
+
+    <!--PicLibrary库-->
+    <string name="dir_all_pictures">/所有图片</string>
+    <string name="complete">完成</string>
+    <string name="chose_at_most">最多选择</string>
+    <string name="sheet">张</string>
+    <string name="picture">图片</string>
+    <string name="all_picture">所有图片</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+</resources>

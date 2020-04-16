@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.bigdata.base.view.TitleLibView
+        android:id="@+id/titleLibView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.bigdata.base.view.TitleLibView>
+
+    <GridView
+        android:id="@+id/picture_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:horizontalSpacing="4dp"
+        android:numColumns="3"
+        android:padding="10dp"
+        android:verticalSpacing="4dp"></GridView>
+
+</LinearLayout>
